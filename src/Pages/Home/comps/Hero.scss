@@ -30,8 +30,9 @@
 
         }
 
-        .btn {
+        .btn a{
             border-radius: 50px;
+            text-decoration: none;
             color: white;
             display: flex;
             background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
