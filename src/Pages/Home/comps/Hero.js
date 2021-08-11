@@ -8,13 +8,16 @@ const Hero = () => {
   
             <div className="left-side">
                 <h1 className="hero-title">
-                    Hello, My Name Is<br/>  Brandon Berning
+
+                Brandon Berning
+                <br />
+                Full-stack web developer
                 </h1>
                 <p className="hero-text">
-                  A full-stack web developer
+                    I would say my love for creating simple, efficient <br/>and beautiful components is what drives me to <br/>continue coding.
                 </p>
                 <div className="btn learn-more"
-                    onClick={()=> window.location = 'https: //google.com'}>
+                    onClick={()=> window.location = '/projects'}>
                     View my work
                 </div>
             </div>

@@ -52,7 +52,13 @@ const Projects = () =>  {
 
     return (
         <div className='projects'>
-            {displayedProjectsList}  
+            <div className='info'>
+                <h2>Projects</h2>
+                <p>These are some of my personal projects I've been working on in my spare time while maintaining two jobs. Feel free to check out my codes! </p>
+            </div>
+            <div className='projects-list-wrapper'>
+                {displayedProjectsList}  
+            </div>
         </div>
         )
 }

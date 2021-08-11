@@ -1,0 +1,38 @@
+.technologies {
+    width: 60%;
+    margin: 80px auto;
+    
+    h1 {
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+
+    }
+    .info p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 24px;
+        line-height: 40px;
+        font-weight: 300;
+        padding-bottom: 3.6rem;
+        max-width: 800px;
+    }
+
+    .types {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 90%;
+
+        h2 {
+            color: white;
+            font-weight: 600;
+        }
+
+        p {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 16px;
+        }
+    }
+
+}
