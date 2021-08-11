@@ -2,8 +2,8 @@
   "hosting": {
     "amplifyhosting": {
       "service": "amplifyhosting",
-      "providerPlugin": "awscloudformation",
-      "type": "manual"
+      "type": "cicd",
+      "lastPushTimeStamp": "2021-08-11T14:20:18.318Z"
     }
   }
 }
