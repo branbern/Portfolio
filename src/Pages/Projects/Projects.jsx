@@ -19,12 +19,6 @@ const Projects = () =>  {
             src: ''
         },
         {
-            name: 'Blockdesign',
-            description:  'To learn AWS I created a project in which users can log in to create wonderful master peices that they can then save for later. ',
-            gitlink: 'https://github.com/branbern/blockdesign',
-            src: ''
-        },
-        {
             name: 'Beaumont-demo',
             description:  'A remake of a popular Squarespace template.',
             gitlink: 'https://github.com/branbern/squarespace-clone-beaumont-demo',
