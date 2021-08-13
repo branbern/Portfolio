@@ -25,3 +25,34 @@
     }
 }
 
+
+
+$small: 425px;
+@media screen and (max-width: $small) {
+    .about {
+        width: 80%;
+        margin: 40px auto;
+    
+        .info {
+            h2 {
+                color: white;
+                font-size: 2rem;
+                font-weight: 600;
+            }
+            p {
+                color: rgba(255, 255, 255, 0.5);
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 30\px;
+            }
+        }
+    
+        .pdf {
+            width: 100%;
+            height:500px;
+            margin: auto;
+        }
+    }
+}
+
+

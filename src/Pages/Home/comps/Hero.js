@@ -11,11 +11,10 @@ const Hero = () => {
                 <h1 className="hero-title">
 
                 Brandon Berning
-                <br />
                 Full-stack web developer
                 </h1>
                 <p className="hero-text">
-                    I would say my love for creating simple, efficient <br/>and beautiful components is what drives me to <br/>continue coding.
+                    I would say my love for creating simple, efficient and beautiful components is what drives me to continue coding.
                 </p>
 
                 <div className="btn learn-more">

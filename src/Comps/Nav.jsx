@@ -8,14 +8,14 @@ const Nav = () => {
     const [active, setActive] = useState(location.pathname);
 
     return (
-        <div className='nav-wrapper'>
-            <nav className="navbar navbar-expand-lg nav">
-                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <a className="navbar-brand" href="/">Portfolio</a>
-
-                <div className="collapse navbar-collapse">
+      <div className="nav-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a className="navbar-brand" href="/">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
                     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li className={active === '/projects' ? 'nav-link active': 'nav-link'} onClick={() => setActive('/projects')}><Link to="/projects">Projects</Link></li>
                         <li className={active === '/technologies' ? 'nav-link active': 'nav-link'} onClick={() => setActive('/technologies')}><Link to="/technologies">Technologies</Link></li>
@@ -26,8 +26,9 @@ const Nav = () => {
                         <li className='nav-link' onClick={() => setActive('/')}><a href="https://github.com/branbern"><i className="fab fa-github"></i></a></li>
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
+      </div>
     )
 }
 

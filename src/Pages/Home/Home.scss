@@ -1,4 +1,18 @@
-.Home {
-    width: 60%;
-    margin: auto;
+
+
+
+
+$small: 400px;
+$medium: 900px;
+@media screen and (max-width: $small) {
+    .Home {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media screen and (min-width: $medium) {
+    .Home {
+        width: 60%;
+        margin: auto;
+    }
 }

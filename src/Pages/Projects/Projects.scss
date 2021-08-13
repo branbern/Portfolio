@@ -1,18 +1,18 @@
+$small: 425px;
+
 .projects {
     width: 60%;
     margin: 80px auto;
-
-
     .info {
+        height: 200px;
         h2 {
             color: white;
-            font-size: 3rem;
+            font-size: 2rem;
             font-weight: 600;
         }
         p {
             color: rgba(255, 255, 255, 0.5);
             font-size: 24px;
-            line-height: 40px;
             font-weight: 300;
             padding-bottom: 3.6rem;
             max-width: 800px;
@@ -26,3 +26,26 @@
         align-items: center;
     }
 }
+    
+@media screen and (max-width: $small) {
+    .projects {
+         width: 90%;
+         margin: auto;
+         padding: 20px;
+ 
+         .info {
+             h2 {
+                 color: white;
+                 font-size: 2rem;
+                 font-weight: 600;
+             }
+             p {
+                 color: rgba(255, 255, 255, 0.5);
+                 font-size: 16px;
+                 font-weight: 300;
+                 padding-bottom: 3.6rem;
+                 max-width: 800px;
+             }
+         }
+    }
+ }
