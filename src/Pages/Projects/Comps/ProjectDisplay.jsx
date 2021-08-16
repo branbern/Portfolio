@@ -9,13 +9,11 @@ const ProjectDisplay = (props) => {
     }
     return (
         <div className='project-display'>
-                <div className='project-inner'>
-                    <a href={props.data.gitlink}>
-                        <h2>{props.data.name}</h2> 
-                    </a>
-                    <p>{props.data.description}</p>
-                        {live}
-                </div>
+            <a href={props.data.gitlink}>
+                <h2>{props.data.name}</h2> 
+            </a>
+            <p>{props.data.description}</p>
+                {live}
         </div>
     )
 }

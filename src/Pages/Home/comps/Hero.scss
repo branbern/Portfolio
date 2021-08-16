@@ -1,6 +1,59 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 105px;
 
-$small: 400px;
-$medium: 900px;
+    .left-side {
+        width: 50%;
+
+        .hero-title {
+            background-image: linear-gradient(
+                    270deg
+                    , #13adc7 0%, #945dd6 70%);
+                        background-size: 100%;
+                        -webkit-background-clip: text;
+                        -moz-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        -moz-text-fill-color: transparent;
+                        font-weight: 600;
+        }
+
+        .hero-text {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 24px;
+            line-height: 40px;
+            font-weight: 300;
+            padding-bottom: 3.6rem;
+            max-width: 800px;
+
+        }
+
+        .btn a{
+            border-radius: 50px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
+            opacity: 1;
+            transition: all 0.4s ease 0s;
+            font-size: 24px;
+            font-weight: 600;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: none;
+            width: 250px;
+            padding: 15px;
+        }
+    }
+    .right-side {
+        width: 50%;
+    }
+}
+
+$small: 800px;
 @media screen and (max-width: $small) {
     .hero {
         display: flex;
@@ -62,61 +115,3 @@ $medium: 900px;
         }
     }
 }
-@media screen and (min-width: $medium) {
-    .hero {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin: auto;
-        margin-top: 105px;
-    
-        .left-side {
-            width: 50%;
-    
-            .hero-title {
-                background-image: linear-gradient(
-                        270deg
-                        , #13adc7 0%, #945dd6 70%);
-                            background-size: 100%;
-                            -webkit-background-clip: text;
-                            -moz-background-clip: text;
-                            -webkit-text-fill-color: transparent;
-                            -moz-text-fill-color: transparent;
-                            font-weight: 600;
-            }
-    
-            .hero-text {
-                color: rgba(255, 255, 255, 0.5);
-                font-size: 24px;
-                line-height: 40px;
-                font-weight: 300;
-                padding-bottom: 3.6rem;
-                max-width: 800px;
-    
-            }
-    
-            .btn a{
-                border-radius: 50px;
-                text-decoration: none;
-                color: white;
-                display: flex;
-                background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
-                opacity: 1;
-                transition: all 0.4s ease 0s;
-                font-size: 24px;
-                font-weight: 600;
-                align-items: center;
-                justify-content: center;
-                cursor: pointer;
-                box-shadow: none;
-                width: 250px;
-                padding: 15px;
-            }
-        }
-        .right-side {
-            width: 50%;
-        }
-    }
-}
-
-
